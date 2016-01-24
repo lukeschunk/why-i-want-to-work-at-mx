@@ -4,3 +4,8 @@ body {
 	font-family: 'Gotham', Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
 }
+
+.click-box:hover {
+	background-color: black;
+	opacity: 0.5;
+}
