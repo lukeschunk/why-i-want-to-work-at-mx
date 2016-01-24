@@ -53,9 +53,10 @@ class Header extends React.Component {
 			},
 			sectionAlt: {
 				width: '100%',
-				backgroundColor: '#ffffff',
+				backgroundColor: 'black',
 				position: 'relative',
-				height: '400px'
+				paddingBottom: '40px'
+				// height: '400px'
 			},
 			innerSection : {
 				width: '880px',
@@ -116,7 +117,12 @@ class Header extends React.Component {
 				<div className='section' style={styles.sectionAlt} >
 					<div style={styles.wedgeAlt}> </div>
 					<div style={styles.innerSection} >
-						<Modal />
+						<Modal iconSource='./images/money-desktop-white.png' iconSourceBig='./images/product-green.png' openModalText="I like that MX makes actual products. Things that the whole team can get behind, work on, and imrpove upon. This appeals to me more than making a one-off site for a client." openModalHeading="It's an Actual Product" />
+						<Modal iconSource='./images/mentor-white.png' iconSourceBig='./images/mentor-green.png' openModalText="I like how there is an emphasis on mentorship for the apprentices. I really want to work in a place where I can learn from people much smarter and more experienced than myself, and MX is definitely that." openModalHeading="Mentorship" />
+						<Modal iconSource='./images/react-white.png' iconSourceBig='./images/react-green.png' openModalText="I want to use and learn about modern technology. I like that MX uses React and ES6 and other modern tech - it wouldn't be nearly as valuable for me to work at a place that is using soon-to-be obsolete technology." openModalHeading="Modern Tech"  />
+						<Modal iconSource='./images/design-white.png' iconSourceBig='./images/design-green.png' openModalText="I used to do graphic design at my old job, and good clean design has always been important to me. I can tell from your website and open source components that it's important to you too." openModalHeading="MX Cares About Design"  />
+						<Modal iconSource='./images/culture-white.png' iconSourceBig='./images/culture-green.png' openModalText="True, I've never worked at MX, but it looks like a really fun place to work. Also. I really like ping pong." openModalHeading="Great Culture?"  />
+						<Modal iconSource='./images/me-white.png' iconSourceBig='./images/me-green.png' openModalText="I am so excited about the opportunity to work on a product that thousands of people use. I'm sure I have a lot to learn - which is ok with me. I love learning new things and strive to always be better." openModalHeading="Why Me?"  />
 					</div>
 				</div>
 
