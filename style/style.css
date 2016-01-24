@@ -1,0 +1,6 @@
+body {
+	margin: 0 auto;
+	/*font-family: 'Proxima Nova Light',Helvetica,Arial,sans-serif*/
+	font-family: 'Gotham', Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
